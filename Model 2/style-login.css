@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("landslides.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+.login-box{
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid transparent;
+	width: 380px;
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);    /*Take a look @ this line*/
+	text-align: center;
+	border-radius: 7px;
+}
+h1{
+	color: white;
+	font-size: 35px;
+}
+.input-box .user{
+	margin-top: 50px;
+}
+.user , .pass{
+	background-color: transparent;
+	margin-bottom: 25px;
+	padding: 10px;
+	border: 2px solid khaki;
+	color: white;
+	border-radius: 30px;
+}
+.input-box{
+	overflow: hidden;
+	width: 100%;
+}
+::placeholder{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+input[type=text]:focus{
+	color:white;
+	background-color: rgba(255,255,90,0.25);
+	outline: none;
+}
+input[type=password]:focus{
+	color:white;
+	background-color: rgba(255,255,90,0.25);
+	outline: none;
+}
+a{
+	color: white;
+}
+a:hover{
+	color:khaki;
+}
+.btn{
+	width: 23%;
+	background-color: transparent;
+	border: 2px solid khaki;
+	color: white;
+	padding: 4px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+input[type=button]:hover{
+	background-color: rgb(240,230,143);
+	color: black;
+	
+}
+input[type=button]:active{
+	background-color: rgba(240,230,143,.92);
+	color: black;
+}
+input[type=button]:focus{
+	outline: none;
+}
+.new-account{
+	 margin-top: 25px;
+}
