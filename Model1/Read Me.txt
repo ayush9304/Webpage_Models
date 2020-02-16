@@ -1,0 +1,6 @@
+(1) Open index.html
+
+(2) Donnot touch any other file as
+    they are linked to each other
+    and they all can be reached through
+    index.html

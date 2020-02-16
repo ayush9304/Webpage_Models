@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.first {
+       background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Earth_Night_NASA.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100vh;
+       position: relative;
+       }
+#Author {
+         float: left;
+         width: 150px;
+         height: 92px;
+         margin-right: 16.3vh;
+         margin-top: 7.1px;
+         margin-left: 8.3px;
+        }
+a:link {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 13px;
+       }
+a:hover {
+         color: rgb(50,50,50);
+         transition: 0.1s ;
+        }
+a:active {
+          background-color: white;
+          color: black;
+          display: inline-block;
+          padding: 13px;
+         }  
+.L1 {
+     font-size: 14px;
+     font-family: Verdana;
+     margin-left: 22.5px;
+     margin-top: 28px;
+     color: white;
+    } 
+hr {
+    margin-top: 33px;
+   } 
+.heading h1{
+	margin-top: 200px;
+	font-size: 55px;
+	color: white;
+	font-family: Helvetica;
+	text-align: center;
+}
+.second {
+	height: 100vh;
+	display: flex;
+}
+.profile-pic {
+	width: 50%;
+}
+.pic{
+	height:300px;
+	width: 300px;
+	align-self: center;
+	margin-left: 150px;
+	margin-top: 160px;
+}
+.profile {
+	width: 50%;
+	margin-left: 80px;
+	margin-top: 80px;
+  text-align: center;
+}
+.subhead-one {
+	font-size: 45px;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif !important;
+}
+.first-p{
+	font-size: 15px;
+  line-height: 1.64;
+  font-family: 'Open Sans',sans-serif !important;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+.subhead-two {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Open Sans',sans-serif !important;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+.second-p{
+  font-size: 15px;
+  line-height: 1.64;
+  font-family: 'Open Sans',sans-serif !important;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+}

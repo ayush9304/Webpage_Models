@@ -1,0 +1,77 @@
+body{
+	 background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("Coffee_Laptops.jpg");
+    }
+#Author {
+         float: left;
+         width: 150px;
+         height: 92px;
+         margin-right: 16.3vh;
+         margin-top: 0px;
+        }
+a:link {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 13px;
+       }
+a:hover {
+         color: rgb(50,50,50);
+         transition: 0.1s ;
+        }
+a:active {
+          background-color: white;
+          color: black;
+          display: inline-block;
+          padding: 13px;
+         }  
+.L1 {
+     font-size: 14px;
+     font-family: Verdana;
+     margin-left: 23px;
+     margin-top: 20px;
+     color: white;
+    } 
+hr {
+    margin-top: 33px;
+   }
+#head {
+       color: white;
+       font-family: Sans-Serif;
+       font-size: 64px;
+       margin-left: 34%;
+      }    
+#location {
+           width: 20px;
+           height: 20px;
+           margin-left: 31.5%
+          }
+#email {
+        width:23px;
+        height:23px;
+        margin-left: 34%;
+        margin-top: -5px;
+       }
+#i1 {
+     margin-left: 3%;
+     color: white;
+    }
+#linkedin {
+       width: 29px;
+       height: 29px;
+       margin-left: 33.7%;
+       margin-top: -9px;
+      }
+#i2 {
+     margin-left: 3%;
+     color: white;
+    }
+#location {
+           width: 23px;
+           height: 23px;
+           margin-left: 34%;
+           margin-top: -3px;
+          }
+#i3 {
+     margin-left: 3%;
+     color: white;
+    }

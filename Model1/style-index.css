@@ -1,0 +1,54 @@
+#Author {
+         float: left;
+         width: 150px;
+         height: 92px;
+         margin-right: 16.3vh;
+         margin-top: 0px;
+        }
+body {
+      background-image: url("background.jpg");
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat:no-repeat;
+     }
+a:link {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        padding: 13px;
+       }
+a:hover {
+         color: lightgrey;
+         transition: 0.1s ;
+        }
+a:active {
+          background-color: black;
+          color: white;
+          display: inline-block;
+          padding: 13px;
+         }
+.L1 {
+     font-size: 14px;
+     font-family: Verdana;
+     margin-left: 23px;
+     margin-top: 20px;
+     color: black;
+    }
+hr {
+    margin-top: 33px;
+   }
+#head {
+   font-family: Sans-Serif;
+   font-size: 85px;
+  }
+.BLink {
+         margin-top: 2%;
+         color:black;
+         border: 2px solid black;
+        }
+.BLink:hover {
+               background-color:black;
+               color:white;
+               transition: 0.5s ease;
+              }
